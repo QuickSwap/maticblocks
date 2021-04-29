@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --ipfs https://ipfs.infura.io:5001 --node http://127.0.0.1:8020 matic/blocks",
+    "deploy": "graph deploy --access-token c90876740d3d4648802b67ef6373e8cc --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sameepsi/maticblocks",
     "create-local": "graph create --node http://127.0.0.1:8020 matic/blocks",
     "remove-local": "graph remove --node http://localhost:8020/ blocklytics/ethereum-blocks",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 blocklytics/ethereum-blocks",
