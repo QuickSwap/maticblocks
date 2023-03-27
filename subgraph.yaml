@@ -8,7 +8,7 @@ dataSources:
     name: ConverterRegistryContract
     network: tzkevm
     source:
-      address: "0x4087F566796b46eEB01A38174c06E2f9924eAea8"
+      address: "0x81d880bfab1f7f08816d9bd4571e2f5953532287"
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events
