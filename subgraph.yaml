@@ -1,4 +1,4 @@
-specVersion: 0.0.2
+specVersion: 0.0.5
 description: Indexing all Matic Block data
 repository: https://github.com/quickswap/matic-blocks
 schema:
@@ -6,13 +6,13 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ConverterRegistryContract
-    network: matic
+    network: tzkevm
     source:
-      address: "0x0199018bee0225Eb3f933f5232E4957954554481"
+      address: "0x4087F566796b46eEB01A38174c06E2f9924eAea8"
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       entities:
         - ConverterAddition
